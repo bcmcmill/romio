@@ -19,28 +19,27 @@ Event loop and I/O resources for asynchronous network services using futures
 categories = ["asynchronous", "network-programming"]
 
 [dependencies]
-crossbeam-utils = "0.6.5"
-iovec = "0.1.2"
-lazy_static = "1.2.0"
-log = "0.4.6"
-mio = "0.6.16"
-mio-uds = "0.6.7"
-num_cpus = "1.10.0"
-parking_lot = "0.7.1"
-slab = "0.4.2"
-libc = "0.2.48"
-async-datagram = "2.2.0"
-async-ready = "2.1.0"
+crossbeam-utils = ""
+lazy_static = ""
+log = ""
+mio = ""
+mio-uds = ""
+num_cpus = ""
+parking_lot = "<1.0.0"
+slab = ""
+libc = ""
+async-datagram = ""
+async-ready = ""
 
 [dependencies.futures]
-version = "0.3.0-alpha.14"
+version = "0.3.0-alpha.16"
 package = "futures-preview"
 
 [dev-dependencies]
-bytes = "0.4.11"
-tempdir = "0.3.7"
-rand = "0.6.5"
+bytes = ""
+tempdir = ""
+rand = ""
 
 [dev-dependencies.env_logger]
-version = "0.6.0"
+version = ""
 default-features = false
